@@ -1,0 +1,201 @@
+.tour-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin:auto;
+    padding: 20px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-bottom: 1px solid white; /* Changé pour souligner au lieu de surligner */
+    box-sizing: border-box;
+    position: relative;
+}
+  
+  .tour-block-text {
+    color: white;
+    text-align: left;
+    flex: 1;
+  }
+  
+  .tour-block-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: right;
+    position: absolute; /* Ajouté pour positionner les boutons par rapport à tour-block */
+    height: 100%; /* Ajouté pour définir la hauteur par rapport à tour-block */
+    right: 0; /* Ajouté pour aligner les boutons à droite */
+  }
+  
+  .tour-block-title,
+  .tour-block-description,
+  .tour-block-second-description {
+    margin: 0;
+  }
+  
+  .tour-block-btn {
+    height: 40%;
+    min-height: 40px;
+    width: 15vw;
+    min-width: 150px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .tickets-btn {
+    background-color: black;
+    color: white;
+    border: 1px solid white; /* Bordure moins épaisse */
+    transition: background-color 0.3s, color 0.3s; /* Animation plus légère */
+  }
+  
+  .tickets-btn:hover {
+    filter: brightness(0.8);
+  }
+  
+  .set-reminder-btn {
+    background-color: white; /* Changé pour avoir un fond blanc */
+    color: #007bff;
+    border: 1px solid #007bff; /* Bordure moins épaisse et de la couleur du texte */
+    transition: all 0.3s;
+  }
+
+  .tour-block .set-reminder-btn:hover {
+    filter: brightness(0.8);
+  }
+
+
+/* OVERLAY */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .popup {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .popup-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border: 2px solid white;
+    padding: 10px;
+  }
+  
+  .popup-left {
+    width: 50%;
+  }
+  
+  .popup-right {
+    width: 50%;
+  }
+
+ 
+  .popup-address {
+    color: white;
+    text-decoration: none;
+  }
+  .address-part-2 {
+    text-align: center;
+  }
+  .popup-address:hover {
+    text-decoration: underline;
+  }
+
+  .close-popup-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .close-popup-btn:hover {
+    color: #848383;
+  }
+
+
+  .address-part-1::after {
+    content: '\A';
+    white-space: pre;
+  }
+
+  .ticket-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .buy-tickets-btn {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buy-tickets-btn:hover {
+    background-color: #333;
+  }
+
+  .no-reservation-text {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+  }
+
+
+  /* Media queries for TourBlock responsiveness */
+
+
+@media (max-width: 768px) {
+  .tour-block {
+    flex-direction: column;
+  }
+
+  .tour-block-text {
+    margin-bottom: 10px;
+  }
+
+  .tour-block-buttons {
+    position: static;
+    flex-direction: column;
+  }
+
+  .tour-block-btn {
+    height: 100%;
+  }
+}
+

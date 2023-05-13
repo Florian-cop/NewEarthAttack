@@ -1,0 +1,127 @@
+body {
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='60' height='60' patternTransform='scale(1) rotate(120)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0, 3%, 17%, 1)'/><path d='M40 30H20m20 20H0m60-40H20m30 10v40M10 0v40M0 40V0h20v40m40-20v40H40V20m0 40H0V40h40M20 0h40v20H20'  stroke-width='6.5' stroke='hsla(4, 0%, 0%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+  background-size: cover; /* Pour que l'image couvre toute la page */
+  background-position: center; /* Pour centrer l'image */
+  background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
+  min-height: 100vh;
+}
+.albums-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .album-box {
+    width: 12rem; /* Utilisez rem pour une taille responsive */
+    height: 12rem; /* Utilisez rem pour une taille responsive */
+    background-color: transparent;
+    margin: 1.25rem 1.25rem 0.5rem 1.25rem ; /* Utilisez rem pour une taille responsive */
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .album-box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  }
+  
+  .album-box:hover .album-image {
+    filter: brightness(1.2);
+  }
+  
+  .album-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: filter 0.3s;
+  }
+
+  .custom-title {
+    font-size: 4rem;
+    margin: 0;
+    color: #fff;
+    position: relative;
+    font-family: 'Metal Mania', cursive;
+    top: 10px;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .album-popup {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row; /* Assurez-vous que cette ligne est définie sur 'row' */
+    max-width: 80%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .album-popup-image {
+    max-width: 50%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  
+  .album-popup-details {
+    margin-left: 20px;
+  }
+
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+  }
+    .close-button :hover {
+        color: #ff0000;
+    }
+
+    .pop-pup-link {
+        display: block;
+        color: #d60808;
+        text-decoration: none;
+        font-size: 24px;
+        margin-top: 10px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    
+    .pop-pup-link a{
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+        position: relative;
+        transition: all 0.3s;
+    }
+  
+    .pop-pup-link a:hover {
+        text-shadow: 2px 2px 0px rgba(255, 0, 0, 0.8),
+        4px 4px 0px rgba(255, 127, 0, 0.8),
+        6px 6px 0px rgba(255, 255, 0, 0.8),
+        8px 8px 0px rgba(0, 255, 0, 0.8),
+        10px 10px 0px rgba(0, 0, 255, 0.8),
+        12px 12px 0px rgba(75, 0, 130, 0.8),
+        14px 14px 0px rgba(148, 0, 211, 0.8);
+    }
+
+    

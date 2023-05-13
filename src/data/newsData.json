@@ -1,0 +1,55 @@
+[
+    {
+      "id": 1,
+      "title": "Titre de l'actualité 1 ",
+      "content": "Contenu de l'actualité 1",
+      "imageUrl": "Single-Nebulous.jpg",
+      "date": "Aug 12, 2019",
+      "excerpt" :"The year 2020 is set to star 020 is set to star020 is set to star",
+      "url" : "title-first-test",
+      "fullDescription": "Lorem"
+    },
+    {
+      "id": 2,
+      "title": "Titre de l'actualité 1 tes-longeur de fou malade super",
+      "content": "Contenu de l'actualité 1",
+      "imageUrl": "Single-Nebulous.jpg",
+      "date": "Aug 12, 2019",
+      "excerpt" :"Lorem ipsum dolor sit amet consectetur, adipisicing elit Lorem ipsum dolor sit amet consectetur, adipisicing elit Lorem ipsum dolor sit amet consectetur, adipisicing elit Lorem ipsum dolor sit amet consectetur, adipisicing elit",
+      "url" : "title-first-test",
+      "fullDescription": "Lorem  <a href='google.com'>Google</a>  <strong>DIMMU BORGIR</strong> Lorem  <br> <a href='google.com'>Google</a>  <strong>DIMMU BORGIR</strong>"
+
+    },
+    {
+        "id": 3,
+        "title": "Titre de l'actualité 1",
+        "content": "Contenu de l'actualité 1",
+        "imageUrl": "Single-Nebulous.jpg",
+        "date": "Aug 12, 2019",
+        "excerpt" :"The year 2020 is set to star",
+        "url" : "title-first-test",
+        "fullDescription": "Lorem"
+      },
+      {
+        "id": 4,
+        "title": "Titre de l'actualité 1 tes-longeur de fou malade super",
+        "content": "Contenu de l'actualité 1",
+        "imageUrl": "Single-Nebulous.jpg",
+        "date": "Aug 12, 2019",
+        "excerpt" :"Lorem ipsum dolor sit amet consectetur, adipisicing elit Lorem ipsum dolor sit amet consectetur, adipisicing elit Lorem ipsum dolor sit amet consectetur, adipisicing elit Lorem ipsum dolor sit amet consectetur, adipisicing elit",
+        "url" : "title-first-test",
+        "fullDescription": "Lorem  <a href='google.com'>Google</a>  <strong>DIMMU BORGIR</strong> Lorem  <br> <a href='google.com'>Google</a>  <strong>DIMMU BORGIR</strong>"
+  
+      },
+      {
+        "id": 5,
+        "title": "Titre de l'actualité 1 tes-longeur de fou malade super",
+        "content": "Contenu de l'actualité 1",
+        "imageUrl": "Single-Nebulous.jpg",
+        "date": "Aug 12, 2019",
+        "excerpt" :"Lorem ipsum dolor sit amet consectetur, adipisicing elit Lorem ipsum dolor sit amet consectetur, adipisicing elit Lorem ipsum dolor sit amet consectetur, adipisicing elit Lorem ipsum dolor sit amet consectetur, adipisicing elit",
+        "url" : "title-first-test",
+        "fullDescription": "Lorem  <a href='google.com'>Google</a>  <strong>DIMMU BORGIR</strong> Lorem  <br> <a href='google.com'>Google</a>  <strong>DIMMU BORGIR</strong>"
+  
+      }
+]

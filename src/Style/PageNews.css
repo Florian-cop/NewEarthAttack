@@ -1,0 +1,34 @@
+.page-news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Metal Mania', cursive;
+    color: #f39c12;
+    letter-spacing: 2px;
+    font-size: 1.5vmax;
+}
+.page-news {
+    text-align: center;
+    /* Autres styles pour .page-news */
+  }
+  
+  .news-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  
+  .news-block-container {
+    width: 25%;
+    height: 50vh;
+    background-color: rgb(36, 35, 35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden; /* Ajoutez cette ligne pour couper le texte qui dépasse */
+    box-sizing: border-box; /* Ajoutez cette ligne pour inclure les bordures et les marges dans les dimensions */
+    margin: 0 1%; /* Ajoutez des marges entre les NewsBlock */
+  }
+  

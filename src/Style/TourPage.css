@@ -1,0 +1,92 @@
+/* Changez la police pour tout le texte dans TourPage */
+.tour-page * {
+  font-family: 'Your Font Name', sans-serif; /* Remplacez 'Your Font Name' par le nom de la police que vous souhaitez utiliser */
+}
+
+.tour-title-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tour-title {
+  font-size: 6vw; /* Ajustez la taille de la police selon vos préférences */
+  color: white;
+  display: inline-block;
+  padding: 0 5% 2% 5%;
+  border-bottom: 2px solid rgb(243, 156, 18);
+}
+
+/* Style pour le bouton Follow */
+.tour-page .follow-btn {
+  font-size: 2vw;
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 5%;
+  border: 1px solid white;
+}
+.tour-page .follow-btn:hover {
+  color: rgb(170, 163, 163);
+}
+
+.tour-filter {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  margin:auto;
+  padding: 20px 0 0 0;
+  font-size: 2vw;
+  line-height: 1.5;
+  border-bottom: 1px solid white;
+  box-sizing: border-box;
+  position: relative;
+  color: white;
+}
+
+.filter-option {
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.filter-option:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.separator {
+  padding: 0 5px;
+}
+
+.tour-page .follow-btn {
+  margin-bottom: 20px;
+}
+
+
+ @media (max-width: 768px) {
+
+  .tour-filter {
+    justify-content: center;
+    align-items: center;
+  }
+  .tour-title {
+    font-size: 40px;
+  }
+  .tour-page .follow-btn {
+    font-size: 3vw;
+  }
+
+  .filter-option {
+    font-size: 3vw;
+  }
+
+  /* .tour-page .follow-btn {
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+
+  .separator {
+    display: none;
+  } */
+}

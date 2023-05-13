@@ -1,0 +1,69 @@
+.list-icon {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  }
+  
+  .icon {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .icon:hover {
+    transform: scale(1.1);
+  }
+
+
+  .icon-1 {
+    background-image: url('../Image/ListIconLogo/spotify.png');
+    width: 24px;
+    height: 24px;
+  }
+  .icon-2 {
+    background-image: url('../Image/ListIconLogo/deezer.png');
+    width: 24px;
+    height: 24px;
+  }
+  .icon-3 {
+    background-image: url('../Image/ListIconLogo/youtube.png');
+    width: 24px;
+    height: 24px;
+  }
+  
+  .icon-4 {
+    background-image: url('../Image/ListIconLogo/insta.png');
+    width: 24px;
+    height: 24px;
+  }
+  .icon-5 {
+    background-image: url('../Image/ListIconLogo/twitter.png');
+    width: 24px;
+    height: 24px;
+  }
+  
+  .icon-6 {
+    background-image: url('../Image/ListIconLogo/facebook.png');
+    width: 24px;
+    height: 24px;
+  }
+  .icon-1:hover {
+    background-image: url('../Image/ListIconLogo/spotify-color.png');
+  }
+  .icon-2:hover {
+    background-image: url('../Image/ListIconLogo/deezer-color.png');
+  }
+  .icon-3:hover {
+    background-image: url('../Image/ListIconLogo/youtube-color.png');
+  }
+  .icon-4:hover {
+    background-image: url('../Image/ListIconLogo/insta-color.png');
+  }
+  .icon-5:hover {
+    background-image: url('../Image/ListIconLogo/twitter-color.png');
+  }
+  .icon-6:hover {
+    background-image: url('../Image/ListIconLogo/facebook-color.png');
+  }

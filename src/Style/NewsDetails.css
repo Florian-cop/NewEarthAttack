@@ -1,0 +1,64 @@
+body {
+	background-color: black !important;
+	min-height: 100vh;
+  }
+  
+  @font-face {
+	font-family: 'Sancreek';
+	src: url('/src/Style/fonts/Sancreek-Regular.ttf');
+  }
+  @font-face {
+	font-family: 'Creepster';
+	src: url('/src/Style/fonts/Creepster-Regular.ttf');
+  }
+  
+  /* NewsDetails.css */
+  
+  .news-first-div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 100vh;
+	background-color: transparent;
+	max-width: 100%;
+	margin: 0 auto;
+  }
+  
+  .news-details {
+	width: 35%;
+	padding: 2rem;
+	text-align: center;
+	box-sizing: border-box;
+  }
+  
+  .news-details-image {
+	width: 20%;
+	height: auto;
+	object-fit: cover;
+  }
+  
+  .news-details-date {
+	font-family: 'Sancreek', sans-serif;
+	font-size: 1.2rem;
+	color: gray;
+	margin: 0;
+  }
+  
+  .news-details-title {
+	font-family: 'Creepster', sans-serif;
+	font-size: 2.5rem;
+	color: white;
+	margin: 0.5rem 0;
+  }
+  
+  .news-details-content {
+	font-size: 1rem;
+	color: white;
+	text-align: left;
+  }
+  
+  .news-details-content a {
+	color: orange;
+	text-decoration: none;
+  }
+  

@@ -1,0 +1,26 @@
+.footer {
+  background-color: #111111;
+  margin-top: 50px;
+  text-align: center;
+  color: #666;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  clear: both;
+  position: relative;
+  display: flex; /* Ajouté */
+  justify-content: center; /* Ajouté */
+  align-items: flex-end; /* Ajouté */
+  padding: 20px 0 20px 0;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    font-size: 14px;
+    padding: 15px;
+  }
+}
